@@ -1,0 +1,118 @@
+.player:hover{
+	z-index:2;
+}
+.opponent:hover{
+	z-index:2;
+}
+.card:hover {
+	transform:translateY(-25%);
+}
+.player .card:hover {
+	transform:scale(1.2,1.2);
+	z-index:15;
+}
+.opponent .card:hover {
+	transform:scale(-1.2,1.2) rotate(180deg);
+	z-index:15;
+}
+.opponent .card.double:hover {
+	transform:scale(-2,2) rotate(180deg);
+	z-index:15;
+	transition:none;
+}
+.player .card.tr:hover {
+	transform:translateY(-25%);
+}
+.player .card.us:hover {
+	transform:translateY(-25%);
+}
+.opponent .card.tr:hover {
+	transform:translateY(-25%) translateZ(0) scaleX(-1);
+}
+.opponent .card.us:hover {
+	transform:translateY(-25%) translateZ(0) scaleX(-1);
+}
+.card.double:hover {
+	transform:scale(2,2);
+}
+.discard:hover {
+	transform:scale(2,2) rotate(0deg) translateX(10%);
+}
+/*
+#hand6:hover {
+	transform:translate(-35%,-25%) rotate(-45deg);
+}
+#hand6:active {
+	width:25.5%;
+	padding-bottom:36%;
+	transform:rotate(0deg) translate(0,0);
+	left:74%;
+	bottom:36%;
+	transition:none;
+}
+#hand3:hover {
+	transform:translate(-30%,-25%) rotate(-30deg);
+}
+#hand3:active {
+	width:25.5%;
+	padding-bottom:36%;
+	transform:rotate(0deg) translate(0,0);
+	left:74%;
+	bottom:36%;
+	transition:none;
+}
+#hand1:hover {
+	margin-left:-0.2679%;
+}
+#hand1:active {
+	width:25.5%;
+	padding-bottom:36%;
+	transform:rotate(0deg) translate(0,0);
+	left:74%;
+	bottom:36%;
+}
+#hand2:hover {
+	margin-bottom:3%;
+}
+#hand2:active {
+	width:25.5%;
+	padding-bottom:36%;
+	left:74%;
+	bottom:36%;
+	transform:translate(0,0);
+}
+#hand4:hover {
+	margin-bottom:2%;
+	margin-left:0.2679%;
+}
+#hand4:active {
+	width:25.5%;
+	padding-bottom:36%;
+	transform:rotate(0deg) translate(0,0);
+	left:74%;
+	bottom:36%;
+}
+#hand5:hover {
+	margin-bottom:2%;
+	margin-left:1.1547%;
+}
+#hand5:active {
+	width:25.5%;
+	padding-bottom:36%;
+	transform:rotate(0deg) translate(0,0);
+	left:74%;
+	bottom:36%;
+}
+#hand7:hover {
+	
+	margin-bottom:2%;
+	margin-left:2%;
+}
+#hand7:active {
+	width:25.5%;
+	padding-bottom:36%;
+	transform:rotate(0deg) translate(0,0);
+	left:74%;
+	bottom:36%;
+}
+*/

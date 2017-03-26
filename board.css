@@ -1,0 +1,62 @@
+html, body {
+	margin:0;
+	padding:0;
+	height:100%;
+	width:100%;
+	overflow:hidden;
+	background-color:black;
+}
+.board {
+	position:absolute;
+	width:100%;
+	height:100%;
+	left:0;
+	background-image:;
+	background-color:black;
+	z-index:0;
+}
+.player {
+	position:absolute;
+	width:100%;
+	height:50%;
+	bottom:0;
+	/*background-image:url('playerbg.jpg');*/
+	background-size:100% 100%;
+	background: linear-gradient(to bottom, #ddb082 0%,#ba1212 100%);
+	z-index:1;
+}
+.opponent {
+	position:absolute;
+	width:100%;
+	height:50%;
+	/*background-image:url('opponentbg.jpg');*/
+	background-size:100% 100%;
+	background: linear-gradient(to bottom, #528c85 0%,#0c427c 100%);
+	z-index:1;
+	transform:translateZ(0) scaleY(-1);
+}
+.battlefield {
+	position:absolute;
+	width:31%;
+	padding-bottom:9%;
+	z-index:2;
+}
+.discardblock {
+	position:absolute;
+	width:9%;
+	padding-bottom:7%;
+	z-index:2;
+}
+.deck {
+	position:absolute;
+	width:12%;
+	padding-bottom:9%;
+	z-index:2;
+}
+.block { background-color:white;opacity:0.2;}
+.HQblock {
+	position:absolute;
+	width:31%;
+	padding-bottom:9%;
+	z-index:2;
+}

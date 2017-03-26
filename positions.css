@@ -1,0 +1,150 @@
+.battlefield {
+	left:33.5%;
+	top:0;
+}
+.discardblock {
+	left:0;
+	top:50%;
+	margin-top:-3.5%;
+}
+.deck {
+	left:0;
+	bottom:0;
+}
+
+.HQ {
+	left:33.5%;
+	bottom:35%;
+}
+.HQ1 {
+	left:34.5%;
+	bottom:38%;
+}
+.HQ2 {
+	left:42.5%;
+	bottom:38%;
+}
+.HQ3 {
+	left:50.5%;
+	bottom:38%;
+}
+.HQ4 {
+	left:58.5%;
+	bottom:38%;
+}
+.tr {
+	left:6%;
+	bottom:3%;
+}
+.us {
+	left:1%;
+	bottom:3%;
+}
+.discard {
+	transform:rotate(-90deg);
+	left:2%;
+	top:60%;
+	margin-top:-9.5%
+}
+.terrain1 {
+	left:34%;
+	top:3%;
+}
+.unit1 {
+	left:36%;
+	top:3%;
+}
+.terrain2 {
+	right:50%;
+	top:3%;
+}
+.unit2 {
+	left:47%;
+	top:3%;
+}
+.terrain3 {
+	right:39%;
+	top:3%;
+}
+.unit3{
+	right:37%;
+	top:3%;
+}
+.resources {
+	left:33.5%;
+	bottom:0;
+}
+.resource1 {
+	right:36.5%;
+	bottom:3%;
+}
+.resource2 {
+	right:39.9%;
+	bottom:3%;
+}
+.resource3 {
+	right:43.3%;
+	bottom:3%;
+}
+.resource4 {
+	right:46.7%;
+	bottom:3%;
+}
+.resource5 {
+	right:50.1%;
+	bottom:3%;
+}
+.resource6 {
+	right:53.5%;
+	bottom:3%;
+}
+.resource7 {
+	right:56.9%;
+	bottom:3%;
+}
+.resource8 {
+	right:60.5%;
+	bottom:3%;
+}
+#hand6 {
+	left:68%;
+	bottom:-1.84%;
+	transition: transform 0.2s;
+	z-index:14;
+}
+#hand3 {
+	left:72%;
+	bottom:-1.84%;
+	transition: transform 0.2s;
+	z-index:13;
+}
+#hand1 {
+	left:76%;
+	bottom:-1.84%;
+	transition: transform 0.2s;
+	z-index:12;
+}
+#hand2 {
+	left:80%;
+	bottom:-1.84%;
+	z-index:11;
+	transition: transform 0.2s;
+}
+#hand4 {
+	left:84%;
+	bottom:-1.84%;
+	transition: transform 0.2s;
+	z-index:10;
+}
+#hand5 {
+	left:88%;
+	bottom:-1.84%;
+	transition: transform 0.2s;
+	z-index:9;
+}
+#hand7 {
+	left:92%;
+	bottom:-1.84%;
+	transition: transform 0.2s;
+	z-index:8;
+}
